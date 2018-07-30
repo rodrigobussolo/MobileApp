@@ -1,27 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.iejem.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.ionicframework.crm20700153" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"  xmlns:cdv="http://cordova.apache.org/ns/1.0">
     
     <name>IEJEM</name>
     <description>Aqui Jesus Reina</description>
     <author email="rodrigobussolo@" href="http://www.iejem.com">AGOTH Webmaster</author>
 
-    
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="org.apache.cordova.network-information" />
+
     <gap:plugin name="com.simplec.plugins.localnotification" />
     <plugin name="phonegap-plugin-push" />
 
