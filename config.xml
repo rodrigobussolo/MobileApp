@@ -17,6 +17,7 @@
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
 
     <plugin name="cordova-plugin-background-mode" source="npm" />
+    <plugin name="cordova-plugin-device" spec="~2.0.2" />
     <gap:plugin name="org.apache.cordova.dialogs" source="npm" ></gap:plugin>
     <gap:plugin name="npm i cordova-plugin-device" source="npm" ></gap:plugin>
     <gap:plugin name="org.apache.cordova.camera" source="npm" ></gap:plugin>
